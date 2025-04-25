@@ -1,0 +1,27 @@
+CRITICAL - 2024-07-11 13:18:58 --> Undefined array key 0
+in APPPATH/Views/cwnu/isu.php on line 91.
+ 1 APPPATH/Views/cwnu/isu.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cwnu/isu.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CwnuController.php(220): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->isu()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 16:41:22 --> file_get_contents(/home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/writable/uploads/isu/isupic): Failed to open stream: No such file or directory
+in APPPATH/Controllers/CwnuController.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CwnuController.php(280): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->isupic()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 23:25:14 --> file_get_contents(/home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/writable/uploads/isu/isupic): Failed to open stream: No such file or directory
+in APPPATH/Controllers/CwnuController.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/CwnuController.php(280): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->isupic()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,23 @@
+CRITICAL - 2024-07-14 13:48:46 --> The route for "isu" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 APPPATH/Controllers/CwnuController.php(332): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->isuadd()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-14 13:50:31 --> The route for "isu" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 APPPATH/Controllers/CwnuController.php(332): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->isuadd()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-14 13:52:37 --> Undefined array key 0
+in APPPATH/Controllers/CwnuController.php on line 402.
+ 1 APPPATH/Controllers/CwnuController.php(402): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->isuedit()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,420 @@
+ERROR - 2024-05-03 00:33:15 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:33:16 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:33:21 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:33:21 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:34:04 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:34:04 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:34:33 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:34:33 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:35:12 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:35:12 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:35:31 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:35:31 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:36:02 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:36:02 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:37:06 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:37:06 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:37:12 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:37:12 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:37:15 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:37:15 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:37:21 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:37:21 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:37:24 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:37:24 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:39:17 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:39:17 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:39:28 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:39:28 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:44:56 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:44:56 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:45:17 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:45:17 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 00:45:37 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 00:45:37 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 09:38:39 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 09:38:39 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 09:39:10 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 09:39:10 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 09:39:14 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 09:39:14 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-03 11:46:03 --> mysqli_sql_exception: Unknown column 'batch' in 'field list' in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-03 11:46:03 --> Unknown column 'batch' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnupcController.php(170): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

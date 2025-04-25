@@ -1,0 +1,40 @@
+ERROR - 2024-07-17 17:02:35 --> mysqli_sql_exception: Table 'rncpzrjh_hm.events' doesn't exist in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnuController.php(597): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnuController->events()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-17 17:02:35 --> Table 'rncpzrjh_hm.events' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnuController.php(597): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->events()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-17 17:27:21 --> mysqli_sql_exception: Table 'rncpzrjh_hm.events' doesn't exist in /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/app/Controllers/CwnuController.php(597): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(934): App\Controllers\CwnuController->events()
+#6 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#7 /home/rncpzrjh/domains/hamidmahzon.com/public_html/myapp/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rncpzrjh/domains/hamidmahzon.com/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-17 17:27:21 --> Table 'rncpzrjh_hm.events' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/CwnuController.php(597): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->events()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

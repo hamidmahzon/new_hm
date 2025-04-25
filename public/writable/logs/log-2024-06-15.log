@@ -1,0 +1,11 @@
+CRITICAL - 2024-06-15 12:53:20 --> Undefined variable $crecord
+in APPPATH/Views/cwnupc/homec.php on line 134.
+ 1 APPPATH/Views/cwnupc/homec.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/cwnupc/homec.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/CwnupcController.php(292): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnupcController->cwnupcc()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

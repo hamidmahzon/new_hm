@@ -1,0 +1,10 @@
+CRITICAL - 2024-10-08 15:34:28 --> syntax error, unexpected token ";"
+in APPPATH/Views/pchome.php on line 180.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/CwnuController.php(17): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\CwnuController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
